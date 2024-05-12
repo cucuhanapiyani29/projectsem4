@@ -1,0 +1,48 @@
+ion-toolbar {
+    --background: linear-gradient(to right, #483D8B, #8f94fb); /* Gradien warna ungu */
+    --color: #fff; /* Warna teks putih */
+    --ion-toolbar-height: 60px; /* Tinggi toolbar */
+    padding-bottom: 20px;
+  }
+  
+  ion-title {
+    font-weight: bold; /* Menjadikan teks judul tebal */
+    font-size: 20px; /* Ukuran teks judul */
+  }
+  
+  ion-button{
+  margin-right: 20px;
+  }
+  
+  ion-avatar {
+    margin-left: 10px; /* Jarak antara foto profil dan judul */
+    width: 55px; /* Lebar foto profil */
+    height: 55px; /* Tinggi foto profil */
+    margin-left:20px ;
+    margin-top: 10px;
+  }
+  
+  ion-avatar img {
+    border-radius: 50%; /* Membuat foto profil berbentuk bulat */
+    border: 2px solid #fff; /* Garis putih di sekitar foto profil */
+  }
+  
+  ion-card {
+    --background: #ffffff; /* Warna latar belakang card */
+    --ion-color-primary: #000; /* Warna teks utama */
+    border-radius: 10px; /* Sudut card */
+    box-shadow: 0 2px 4px rgba(14, 12, 4, 0.1); /* Efek bayangan */
+  }
+  
+  ion-card-header {
+    --color: #000; /* Warna teks header */
+    --ion-color-primary: #000; /* Warna teks utama */
+  }
+  
+  .triangle-right {
+      width: 50;
+      height: 0;
+      border-top: 50px solid transparent;
+      border-left: 250px solid #F4A460;
+      border-bottom: 100px solid #6c61b1;
+  }

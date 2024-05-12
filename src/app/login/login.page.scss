@@ -1,0 +1,32 @@
+.round-input {
+    border-radius: 20px;
+    background-color: aquas;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.background {
+    max-width: 100%; 
+    max-height: 100%;
+    background-size: cover; 
+}
+
+ion-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Atur konten flexbox ke atas */
+  align-items: center; /* Pusatkan konten secara horizontal */
+}
+
+ion-card {
+  align-self: flex-end; /* Letakkan kartu di ujung bawah konten */
+  margin-bottom: 50px; /* Tambahkan margin bawah agar tidak terlalu dekat dengan tepi bawah */
+}
+
+
+

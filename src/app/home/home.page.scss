@@ -25,3 +25,43 @@
 #container a {
   text-decoration: none;
 }
+ion-card {
+  --background: #e4e4e4;
+  --color: #020202;
+}
+
+ion-card-title {
+  --color: #050505;
+}
+
+ion-card-subtitle {
+  --color: #0c0c0c;
+}
+.custom-card {
+  ion-card {
+    margin-bottom: 10px; // Atur margin bawah sesuai kebutuhan
+  }
+
+  ion-grid {
+    margin-left: 0; // Menghapus margin kiri agar grid melekat pada sisi layar
+    margin-right: 0; // Menghapus margin kanan agar grid melekat pada sisi layar
+  }
+
+  ion-row {
+    justify-content: flex-end; // Menggeser elemen ke pinggir kanan
+  }
+}
+// home.page.scss (atau file SCSS yang sesuai)
+
+.round-button {
+  // Mengatur bentuk tombol menjadi bulat
+  --border-radius: 999px;
+
+  // Mengatur warna latar belakang menjadi merah
+  --background: #8c8c8c;
+
+  // Jika ingin mengatur warna teks tombol, tambahkan baris berikut
+  --color: white; // Misalnya, teks akan berwarna putih
+}
+
+

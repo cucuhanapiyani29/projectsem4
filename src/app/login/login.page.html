@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      E-LIBRARY APP
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <p>Silahkan masukan ke akunmu untuk menggunakan fitur menarik lainnya !</p>
+      <ion-card-title>Masukan Akun</ion-card-title>
+    </ion-card-header>
+    
+    <ion-card-content>
+      <ion-input label="Email" label-placement="floating" fill="solid" placeholder="Masukan Email"></ion-input>
+      <ion-input type="password" class="round-input" label="Password" label-placement="floating" fill="outline" placeholder="Masukan Password"></ion-input>
+
+      <ion-button expand= block shape="round" routerLink="/home">Login</ion-button>
+      <ion-button expand= block shape="round" routerLink="/signup">Sign up</ion-button>
+    </ion-card-content>  
+  </ion-card>
+
+  <div class="background">
+    <img src="assets/imgs/buku.png" alt="">
+  </div>
+</ion-content>
+
